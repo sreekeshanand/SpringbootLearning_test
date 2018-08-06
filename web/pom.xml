@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.spring.testing.stock</groupId>
-	<artifactId>db-service</artifactId>
+	<artifactId>web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>db-service</name>
+	<name>web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
