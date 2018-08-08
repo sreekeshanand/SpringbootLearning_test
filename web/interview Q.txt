@@ -1,0 +1,26 @@
+stringboot :- springstarters
+:- urakA SERVER 
+:- MULTIWEBSERVER :- rEST server 
+:- Work flow  Controller --> DAO --> SERVIER 
+:- annotation what are 
+:- junit and mokico
+:- AOP Join point and point cut 
+:- servlet filters 
+Login framwork 
+how the server will identify if the response is in XML OR Json
+
+
+HashMap 
+ConcurrentHashMap
+SynchronizedHashMap
+Json in detail
+Spring
+lambda
+stream api
+default methods java 8
+stream
+Rest Annotation
+SSL 1 and 2 Way
+
+
+https://www.youtube.com/watch?v=BvynlTYhwsk&index=5&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb
