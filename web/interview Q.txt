@@ -21,6 +21,6 @@ default methods java 8
 stream
 Rest Annotation
 SSL 1 and 2 Way
-
+how to change logging by slx4j to log4j
 
 https://www.youtube.com/watch?v=BvynlTYhwsk&index=5&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb

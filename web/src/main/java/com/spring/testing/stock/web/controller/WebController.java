@@ -33,10 +33,10 @@ public class WebController {
 
 	}
 
-	@RequestMapping(value = "/getTableData", method = RequestMethod.GET)
+	@RequestMapping(value = "/insertTableData", method = RequestMethod.GET)
 	public void getTableData() {
 
-		String sql ="insert into person_Data ( id  , name  , Age  ) where ( 1,'anand',999)";
+		String sql ="insert into person_Data ( id  , name  , Age  ) values ( 1,'anand',999)";
 		try {
 			jdbc.execute(sql);
 		} catch (Exception e) {
@@ -45,7 +45,7 @@ public class WebController {
 
 	}
 
-	@RequestMapping(value = "/createTable", method = RequestMethod.PUT)
+	@RequestMapping(value = "/createTable", method = RequestMethod.GET)
 	public void getCreateTable() {
 String sql ="Create table person_Data ( id serial , name varchar(255) , Age int (3) )";
 		try {
@@ -54,6 +54,7 @@ String sql ="Create table person_Data ( id serial , name varchar(255) , Age int 
 			e.printStackTrace();
 		}
 
+		
 		// return "Hello SSL ";
 
 	}
