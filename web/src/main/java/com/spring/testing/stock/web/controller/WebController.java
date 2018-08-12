@@ -15,6 +15,15 @@ public class WebController {
 	@Autowired
 	private JdbcTemplate jdbc;
 
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public String test() {
+
+		
+		return "test";
+
+	}
+	
+	
 	@RequestMapping(value = "/getPersonData", method = RequestMethod.GET)
 	public ServicePerson getData() {
 
