@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class ScheduleComponent {
 
 	
-	@Scheduled(fixedRate=2000)
+	@Scheduled(fixedRate=200000)
 	public void task(){
 		System.out.println("Testing the the Schedule task ");
 	}
