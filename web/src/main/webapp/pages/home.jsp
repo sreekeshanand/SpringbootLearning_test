@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- This is the JSP page using spring boot ${username }
+ This is the JSP page using spring boot ${name }
 </body>
 </html>
