@@ -9,9 +9,18 @@
 <body>
 <form action="addUser">
 
-<input type ="text" name="id">
-<input type ="text" name="name">
+<input type ="text" name="id" title="ID">
+<input type ="text" name="name"  title="Name">
+<input type ="text" name="language" title="language">
 
+<input type ="submit">
+
+</form>
+
+
+<form action="getUser">
+
+<input type ="text" name="id">
 <input type ="submit">
 
 </form>

@@ -26,7 +26,7 @@ public class JspController {
 		return mv;
 
 	}
-	
+
 	@RequestMapping(value = "/home/user")
 	public ModelAndView Home(User user) {
 
@@ -46,18 +46,31 @@ public class JspController {
 		session.setAttribute("username", name);
 		return "home";
 
-	}@RequestMapping(value = "/Userlogin")
+	}
+
+	@RequestMapping(value = "/Userlogin")
 	public String login() {
 
-		
 		return "login";
 
 	}
+
 	@RequestMapping(value = "/addUser")
 	public String AddUser(User user) {
-System.out.println(user.toString());
+
 		repo.save(user);
 		return "login";
+
+	}
+
+	@RequestMapping(value = "/getUser")
+	public ModelAndView Home(@RequestParam int id) {
+
+		ModelAndView mv = new ModelAndView("userdetails");
+		User user =repo.findById(id).orElse(new User());		
+		mv.addObject(user);
+	System.out.println("Testing****************");
+		return mv;
 
 	}
 }

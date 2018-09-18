@@ -7,14 +7,14 @@ import javax.persistence.Id;
 public class User {
 
 	@Id
-	private  int id ;
-	private  String name  ;
-	
-	//private  String language;
+	private int id;
+	private String name;
+
+	private String language;
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + "]";
+		return "User [id=" + id + ", name=" + name + ", language=" + language + "]";
 	}
 
 	public int getId() {
@@ -33,15 +33,12 @@ public class User {
 		this.name = name;
 	}
 
-//	public String getLanguage() {
-//		return language;
-//	}
-//
-//	public void setLanguage(String language) {
-//		this.language = language;
-//	}
-	
-	
-	
-	
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+
 }
