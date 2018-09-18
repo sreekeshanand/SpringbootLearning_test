@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
- This is the JSP page using spring boot ${obj.name }
+<form action="addUser">
+
+<input type ="text" name="id">
+<input type ="text" name="name">
+
+<input type ="submit">
+
+</form>
 </body>
 </html>
